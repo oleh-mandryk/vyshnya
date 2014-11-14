@@ -1,0 +1,134 @@
+/* ----------------------------------------------Кнопка Submit-------------------------------------*/
+#login input.submit, #search input.submit, #poll input.submit, .materials input.submit, #indexForms input.submit, #adminForms input.submit {
+    background-color: #A4996F;
+    border: solid 1px #7B714B;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+	height: auto;
+    margin: 5px 0 0 0;
+	padding: 4px;
+    width: auto;
+}
+
+#login input.submit:hover, #search input.submit:hover, #poll input.submit:hover, .materials input.submit:hover, #indexForms input.submit:hover, #adminForms input.submit:hover {
+    background-color: #BAB088;
+    color: #EFECB9;
+}
+
+/* ----------------------------------------------Login Form-------------------------------------*/
+#login input, #search input, #indexForms input, #adminForms input {
+    background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+    color: #B6B6B6;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	margin: 0 0 10px 0;
+    padding: 5px;
+	width: 180px;
+}
+
+#login .posBlock, #indexForms .posBlock, #indexForms .posBlockTwo, #adminForms .posBlock, #adminForms .posBlockTwo {
+    float: left;
+    width: auto; 
+}
+
+#indexForms .posBlockTwo, #adminForms .posBlockTwo {
+    margin-right: 10px;
+}
+
+#login .posBlock input, #indexForms .posBlock input, #adminForms .posBlock input {
+    border: none;
+    cursor: pointer;
+    height: auto;
+    margin: 4px 8px 0 0;
+	padding: 0;
+    width: auto;
+}
+
+/* ----------------------------------------------Search Form-------------------------------------*/
+#search img {
+    border: none;
+    float: right;
+    padding: 1px 0px 1px 4px;
+}
+
+/* ----------------------------------------------Materials Form-------------------------------------*/
+.materials select {
+    background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+    color: #B6B6B6;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+	margin: 0 0 10px 0;
+    padding: 2px;
+	width: auto;
+}
+
+/* ----------------------------------------------Schedule Form-------------------------------------*/
+.scheduleContent select, #indexForms select, #adminForms select {
+    background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+    color: #B6B6B6;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	margin: 0 5px 10px 0;
+    padding: 2px;
+	width: auto;
+}
+
+/* ----------------------------------------------Index Form-------------------------------------*/
+#indexForms input {
+    width: 200px;  
+}
+
+#indexForms textarea, #adminForms textarea {
+    background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+    color: #B6B6B6;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	margin: 0 0 10px 0;
+    padding: 5px;
+	width: 450px;    
+}
+
+#indexForms input.numeric, #adminForms input.numeric {
+    width: 110px;    
+}
+
+
+#indexForms input.dateInput {
+    height: 11px;
+    overflow: hidden;
+    width: 50px;
+}
+
+#indexForms .introText {
+    clear: both;
+    font-size: 9px;
+    margin: 0 0 0 5px;
+}
+
+/* ----------------------------------------------Admin Form-------------------------------------*/
+#adminForms input {
+    width: 450px;  
+}
+
+#adminForms textarea {
+    width: 750px;    
+}
+
+#adminForms .widthAuto, #indexForms .widthAuto  {
+    border: none;
+    width: auto;
+    margin: 0;
+}
+
+#adminForms .posBlock select {
+    font-size: 10px;
+}

@@ -1,0 +1,1 @@
+<p>Профиіль користувача: <strong><?=$user->username?> </strong></p>

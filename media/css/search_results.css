@@ -1,0 +1,53 @@
+.searchResults {
+	display: block;
+	margin: 0;
+	padding: 10px 0 0 0;
+    width: 100%;
+}
+
+.searchResults ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.searchResults li {
+	display: block;
+	float: left;
+	margin: 0 30px 20px 0;
+    padding: 0;
+    position: relative;
+    width: 340px;
+}
+
+.searchResults li.last {
+    margin-right: 0;
+}
+
+.searchResults li.prevLast {
+    clear: both;
+}
+
+.searchResults li h2 {
+    border-bottom: 1px dotted #999999;
+	display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 55px;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+	padding: 15px 0 8px 0;
+    text-align: left;
+	width: 100%;
+}
+
+.searchResults li h2 a {
+    color: #836a57;
+}
+
+.searchResults p {
+    line-height: 1.6em;
+	margin: 0 0 25px 0;
+	padding: 0;
+}

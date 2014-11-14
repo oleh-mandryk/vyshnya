@@ -1,0 +1,159 @@
+#featuredSlide {
+    background-color: #BBAE77;
+    color: #333333;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 20px 50px;
+	position: relative;
+    overflow: hidden;
+	width: 860px;
+}
+
+#featuredSlide a, #featuredSlide ul, #featuredSlide img {
+    border: none;
+    list-style: none;
+	margin: 0;
+    outline: none;
+	padding: 0;
+    text-decoration: none;
+}
+
+#featuredSlide h1, #featuredSlide h2, #featuredSlide h3, #featuredSlide h4, #featuredSlide h5, #featuredSlide h6 {
+	color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 15px 0 10px 0;
+	padding: 0;
+}
+
+/* ----------------------------------------------Start Carousel-------------------------------------*/
+
+#featuredContent, #featuredContent ul {
+	display: block;
+    height: 260px;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+	width: 860px;
+}
+
+#featuredContent li {
+	display: block;
+    height: 260px;
+    overflow: hidden;
+	position: relative;
+	width: 860px;
+}
+
+/* ----------------------------------------------Carousel Content-------------------------------------*/
+
+#featuredContent img {
+    border: 1px solid #FFFFFF;
+	display: block;
+	float: right;
+    height: 250px;
+    margin: 0 10px 0 0;
+	padding: 4px;
+	width: 333px;
+}
+
+#featuredContent div.floater {
+	display: block;
+	float: left;
+    height: 250px;
+    margin: 0 0 0 10px;
+	padding: 0;
+    width: 462px;
+}
+
+#featuredContent p {
+    line-height:1.6em;
+	margin: 0 0 10px 0;
+	padding: 0;
+ }
+ 
+ #featuredContent p.readmore {
+	display: block;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+	padding: 9px 10px 9px 10px;
+    text-align: right;
+
+}
+
+#featuredContent p.readmore a {
+    background-color: #A4996F;
+    border: solid 1px #7b714b;
+    color: #FFFFFF;
+    padding: 8px 10px 8px 10px;
+}
+
+#featuredContent p.readmore a:hover {
+    background-color: #BAB088;
+    color: #EFECB9;
+    padding: 8px 10px 8px 10px;
+}
+
+/* ----------------------------------------------Previous & Next Buttons-------------------------------------*/
+
+#featured-item-prev, #featured-item-next {
+	display: block;
+    height: 64px;
+	position: absolute;
+	top: 118px;
+	width: 36px;
+}
+
+#featured-item-prev {
+    left: 5px;
+}
+
+#featured-item-next {
+    right: 5px;
+}
+
+.jcarousel-container {
+    position: relative;
+}
+
+.jcarousel-clip {
+	margin: 0;
+    overflow: hidden;
+	padding: 0;
+	position: relative;
+    z-index: 2;
+}
+
+.jcarousel-list {
+    left: 0;
+    overflow: hidden;
+	margin: 0;
+	padding: 0;
+    position: relative;
+	top: 0;
+	z-index: 1;
+}
+
+.jcarousel-list li, .jcarousel-item {
+	float: left;
+    height: 75px;
+	list-style: none;
+	width: 75px;
+}
+
+.jcarousel-next {
+    display: none;
+	z-index: 3;
+}
+
+.jcarousel-prev {
+    display: none;
+	z-index: 3;
+}

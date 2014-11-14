@@ -1,0 +1,374 @@
+html {
+    overflow-y:scroll;
+}
+body {
+    color: #836a57;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height:1.6em; 
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+a {
+    color: #2684B7;
+    outline: none;
+    text-decoration: none;
+}
+
+a.save {
+    background: url("/media/img/save.jpg") no-repeat;
+    height: 30px;
+    margin-left: 30px;
+    padding: 10px 0 10px 35px;
+    width: 30px;
+}
+
+pre {
+    background-color: #EFEBD3;
+    border: 1px solid silver;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 20px;
+    overflow: auto;
+    overflow-y: hidden; /* Специально для IE - чтобы не было вертикальной прокрутки */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.imgl, .imgr, .imgt {
+    border: 1px solid #999999;
+    padding: 5px;
+}
+.imgl {
+    clear: left;
+    float: left;
+    margin: 8px 8px 8px 0;
+}
+
+.imgr {
+    clear:right;
+    float: right;
+    margin: 8px 0 8px 8px;
+}
+
+.imgt {
+    float: left;
+    margin: 8px 0 8px 8px;
+}
+
+.clear {
+    clear: both; 
+    /*margin-top: -15px;*/
+}
+
+.rightText {
+    font-size: 11px;
+    font-style: italic;
+    text-align: right;
+}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+
+.wrap_header {
+    background-color: #BBAE77;
+}
+
+.wrap_title {
+    background: url("/media/img/title_bg.jpg") repeat-x;
+    height: 58px;
+}
+
+.wrap_featuredSlide, .wrap_featuredSlide a {
+    background-color: #BBAE77;
+    color: #FFFFFF;
+}
+
+.wrap_menuMain{
+    background-color: #94552c;
+    border-top: 1px solid #bc7b4f;
+    border-bottom: 1px solid #bc7b4f;
+    color: #F8F9F3;
+}
+
+.wrap_breadcrumb {
+     background: url("/media/img/breadcrumb_bg.jpg") repeat-x;
+     height: 37px;
+}
+
+.wrap_container {
+    background: url("/media/img/container_bg.jpg") repeat-x;
+    border-bottom: 2px solid #836a57;
+}
+
+.wrap_bottomBar {
+     background-color: #BBAE77;
+     border-top: 1px solid #F8F9F3;
+     padding: 20px 0 30px;
+}
+
+.wrap_copyright {
+    background-color: #BBAE77;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6 {
+	font-family: Verdana, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+	padding: 0;
+}
+
+.wrapper h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrapper p.pagination {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pagination strong {
+    background-color: #A4996F;
+    border: solid 1px #7B714B;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 3px 7px;
+}
+.pagination a {    
+    color: #836a57;
+}
+
+#header, #title, #container, #breadcrumb, #bottomBar, #copyright {
+    display: block;
+    margin: 0 auto;
+	position: relative;
+    width: 980px;
+}
+
+#header {
+    background: url("/media/img/header.jpg") no-repeat;
+    height: 160px;
+}
+
+#title {
+    background: url("/media/img/title.jpg") no-repeat;
+    height: 54px;
+}
+
+#container {
+	padding: 20px 0;
+    overflow: hidden;
+}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6 {
+    border-bottom: 1px solid #E7E6E6;
+	margin: 20px 0 20px 0;
+	padding: 0 0 8px 0;
+    text-align: left;
+}
+
+#mainContent {
+    display:block;
+	width:980px;
+}
+
+#content {
+	display: block;
+	float: left;
+	width: 720px;
+}
+
+#sidebar {
+	display: block;
+	float: right;
+	width: 220px;
+}
+
+#login {
+	display: block;
+}
+
+#login .authA {
+    display: block;
+    float: left;
+    height: 70px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+#login .authB {
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 95px;
+    text-align: left;
+    width: 150px;
+}
+
+#search {
+    
+    display: block;
+	margin: 0;
+    overflow:hidden;
+	padding: 0px;
+    
+}
+
+#copyright {
+    border-top: 1px solid #ded19e;
+    padding: 15px 0;
+}
+
+#copyright p {
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+/* Шкала кількості проголосованих */
+.bar {
+    background: #94552c;
+    border: solid 2px #582401;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+/* Для виводу помилок валідації */
+.error {
+    background: #F7D7D7;
+    color: #c00;
+    font-size: 11px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+/* Для виводу повідомлень */
+.not_error {
+    background: #dcf7d7;
+    color: #2a9d02;
+    font-size: 11px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.add {
+    float: right;
+    margin: 0 0px 10px 20px;
+}
+
+.add img {
+    float: left;
+    padding: 2px 5px 0 0;
+}
+
+.print {
+    height: 16px;
+    width: 16px;
+}
+
+.redText {
+    color : red;
+    font-weight: bold;
+}
+
+.greenText {
+    color : green;
+    font-weight: bold;
+}
+
+.legaladvice ul {
+	overflow: hidden;
+	margin:0;
+	}
+.legaladvice ul li {
+	list-style-type: none;
+	list-style-position: inside;
+	color: #a1a1a1;
+}
+
+.legaladvice ul li.author {
+    background: #ffffce;
+    border: solid 1px #f3f2bb;
+    color: #94552C;
+    padding: 3px 5px;    
+}
+
+.legaladvice ul li.infoBottom, .legaladvice ul li.infoBottomResult, .legaladvice ul li.infoBottomInfo {
+    background: #f4f4f4;
+    border: solid 1px #d9d6d6;
+    color: #666666;
+    padding: 3px 5px;    
+}
+
+.blockA {
+    float: left
+}
+
+.blockB {
+    float: right;
+}
+
+.blockC {
+    float: left
+}
+
+.blockD {
+    float: left;
+    margin-right: 10px;
+}
+
+input.legaladviceRadio {
+    border: none;
+    cursor: pointer;
+    height: auto;
+    margin: 5px 8px 0 6px;
+	padding: 0;
+    width: auto;    
+}
+
+.legaladvice p.legaladviceAnswer {
+    border-bottom: dashed 1px #f1ef65;   
+    padding-bottom: 10px;
+    cursor: pointer;    
+}
+
+.legaladvice p.legaladviceAnswer:hover {
+    background: #ffffe4;
+    color: #8e4e02;
+    border-bottom: dashed 1px #f1ef65;   
+    padding-bottom: 10px;
+    cursor: pointer;    
+}
+
+.legaladviceSidebar {
+    background: url("/media/img/legal_advice.png") no-repeat;
+    border: none;
+    cursor: pointer;  
+    margin-top: 10px;
+    height: 160px;
+    width: 220px
+}
+
+.legaladviceSidebar:hover {
+    background: url("/media/img/legal_advice_hot.png") no-repeat;
+}

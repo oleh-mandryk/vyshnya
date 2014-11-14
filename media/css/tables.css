@@ -1,0 +1,102 @@
+table {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    table-layout: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+table thead th {
+    background-color: #94552c;
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	color: #FFFFFF;
+	table-layout: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tbody td {
+    border-collapse: collapse;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	vertical-align: top;
+ }
+ 
+table tbody td img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+	
+table thead th, table tbody td {
+    border-collapse: collapse;
+	padding: 5px;
+}
+
+table tbody tr.a {
+    background-color: #F7F7F7;
+	color: #836a57;
+}
+
+table tbody tr.b {
+    background-color: #E8E8E8;
+	color: #836a57;
+}
+
+table tbody tr.c {
+    background-color: #FFFFFF;
+	color: #836a57;
+    text-align: center;
+    font-weight: bold;
+}
+
+table tbody tr.d {
+    background-color: #F7F7F7;
+    border-collapse: collapse;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	color: #836a57;
+}
+
+table tbody tr.e {
+    background-color: #E8E8E8;
+    border-collapse: collapse;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	color: #836a57;
+}
+
+table tbody tr.f {
+    background-color: #c1bdbd;
+    border-collapse: collapse;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	color: #836a57;
+}
+
+.dayCurrent {
+    font-weight: bold;
+}
+
+table tbody tr.no_active, table tbody tr.no_active a  {
+    color: #CE0000;
+    font-weight: bold;
+}
+
+table.pidpys {
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    table-layout: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+table.pidpys tbody td {
+    border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+	vertical-align: top;
+ }

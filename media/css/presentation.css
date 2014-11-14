@@ -1,0 +1,56 @@
+#presentation {
+    display: block;
+	margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+#presentation ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#presentation li {
+    border-bottom: 1px solid #D8D8D8;
+	display: block;
+	margin: 0 0 40px 0;
+	padding: 0 0 40px 0;
+    width: 100%;
+ }
+ 
+#presentation li h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#presentation li.last {
+    border-bottom: none;
+	padding: 0;
+}
+
+#presentation .lf {
+	display: block;
+	float: left;
+	width: 250px; /* Same width as the 2 column content area */
+}
+
+#presentation .lf a img {
+    border: 1px solid #999999;
+    padding:5px;
+    height: auto;
+	width: 196px;
+}
+
+#presentation .rg {
+	display: block;
+	float: right;
+	width: 450px; /* Same width as the 2 column right column */
+}
+
+#presentation .rg p.smallText {
+    border: none;
+    font-size: 10px;
+    margin: 0;
+	padding: 0;
+}

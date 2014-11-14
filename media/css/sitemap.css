@@ -1,0 +1,18 @@
+.sitemap {
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 10px 0 0 0;
+    width: 100%;
+}
+
+.sitemap p {
+    background: url(/media/img/arrow.gif) no-repeat left 8px;
+}
+.sitemap p.a {
+	padding: 0 0 0 16px;
+}
+
+.sitemap p.b {
+    margin-left: 20px;
+	padding: 0 0 0 16px;
+ }

@@ -1,0 +1,36 @@
+.menuRight {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.menuRight ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menuRight li {
+	margin: 0;
+	padding: 1px 0 1px 0;
+}
+
+.menuRight a {
+    background: url("/media/img/brown_file.gif") no-repeat 10px center ;
+    border-bottom: 1px dotted #666666;
+    color: #836a57;
+	display: block;
+	margin: 0;
+	padding: 5px 10px 5px 20px;
+	text-decoration: none;
+}
+
+.menuRight a:hover {
+    background-color: #EFEBD3;
+    color: #FFFFFF;
+}
+
+
+.menuRight li.active a {
+    background-color: #EFEBD3;
+    color: #FFFFFF;
+}

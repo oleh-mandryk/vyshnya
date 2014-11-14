@@ -1,0 +1,132 @@
+.photogallery {
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 0;
+    width: 100%;
+}
+
+.photogallery ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.photogallery li {
+	display: block;
+	float: left;
+	margin: 0 30px 0 0;
+    padding: 0;
+    position: relative;
+    width: 340px;
+}
+
+.photogallery li.main {
+	width: 300px;
+}
+
+.photogallery li.last {
+    margin-right: 0;
+}
+
+.photogallery li.prevLast {
+    clear: both;
+}
+
+.photogallery li h2 {
+    border-bottom: 1px dotted #999999;
+	display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 105px;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+	padding: 15px 0 8px 0;
+    text-align: left;
+	width: 100%;
+}
+
+.photogallery li h2 img {
+    border: 1px solid #999999;
+	float: left;
+    height: auto;
+	margin: 0 8px 0 0;
+	padding: 5px;
+    width: auto;
+}
+
+.photogallery p {
+    line-height: 1.6em;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+.photogallery p.readmore {
+	display: block;
+    font-weight: bold;
+    line-height: normal;
+    text-align: right;
+}
+
+.photogallery p.readmore a {
+    background-color: #A4996F;
+    border: solid 1px #7B714B;
+    color: #FFFFFF;
+    padding: 8px 10px 8px 10px;
+    
+}
+
+.photogallery p.readmore a:hover {
+    background-color: #BAB088;
+    color: #EFECB9;
+    padding: 8px 10px 8px 10px;
+}
+
+.photogallery p.date {
+    font-size: 10px;
+	display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.photogallery p.count_views {
+    float: left;
+    font-size: 10px;
+	display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.gallery {
+	display: block;
+	margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.gallery table {
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    table-layout: auto;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery table tbody td {
+    border-collapse: collapse;
+	border: none;
+    padding: 5px 5px 15px 5px;
+	vertical-align: top;
+}
+ 
+.gallery table tbody td img {
+    border: 1px solid #999999;
+    margin: 0 20px 0 0;
+    padding:5px;
+}
+
+.gallery table tbody td a:hover img  {
+	border-color:#333333;
+}

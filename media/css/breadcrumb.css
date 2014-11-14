@@ -1,0 +1,22 @@
+#breadcrumb {
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+#breadcrumb a {
+    color: #2684B7;
+}
+
+#breadcrumb ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#breadcrumb ul li {
+    display: inline;
+}
+
+#breadcrumb ul li.current a {
+    text-decoration: underline;
+}

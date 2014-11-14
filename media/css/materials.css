@@ -1,0 +1,104 @@
+.materials {
+	display: block;
+	margin: 0;
+	padding: 20px 0 0 0;
+    width: 100%;
+}
+
+.materials ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.materials li {
+	display: block;
+	float: left;
+	margin: 0 30px 0 0;
+    padding: 0;
+    position: relative;
+    width: 340px;
+}
+
+.materials li.last {
+    margin-right: 0;
+}
+
+.materials li.prevLast {
+    clear: both;
+}
+
+.materials li h2 {
+    border-bottom: 1px dotted #999999;
+	display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 65px;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+	padding: 15px 0 8px 0;
+    text-align: left;
+	width: 100%;
+}
+
+.materials li h2 img {
+    border: 1px solid #999999;
+	float: left;
+    height: 45px;
+	margin: 0 8px 0 0;
+	padding: 5px;
+    width: 45px;
+}
+
+.materials p {
+    line-height: 1.6em;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+.materials p.readmore {
+	display: block;
+    font-weight: bold;
+    line-height: normal;
+    text-align: right;
+}
+
+.materials p.readmore a {
+    background-color: #A4996F;
+    border: solid 1px #7B714B;
+    color: #FFFFFF;
+    padding: 8px 10px 8px 10px;
+    
+}
+
+.materials p.readmore a:hover {
+    background-color: #BAB088;
+    color: #EFECB9;
+    padding: 8px 10px 8px 10px;
+}
+
+.materials p.date {
+    font-size: 10px;
+	display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.materials p.count_views {
+    float: left;
+    font-size: 10px;
+	display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.materials p.auth_update {
+    background: #F4F8BE;
+    border: solid 1px silver;
+    font-size: 9px;
+    padding: 2px 5px 2px 5px;
+    text-align: right;
+}

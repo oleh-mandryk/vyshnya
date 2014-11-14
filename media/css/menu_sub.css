@@ -1,0 +1,38 @@
+#styleone {
+    background: transparent url("/media/img/bgOFF.gif") repeat-x top left;
+    border-bottom: 1px solid #d9d9d9;
+    display: block;
+    font-family: Arial,Verdana,Helvitica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 21px;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+#styleone ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#styleone ul li {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+#styleone ul li a {
+    color: #94552c;
+    display: block;
+    float: left;
+    height: 18px;
+    padding: 1px 15px 3px 15px;
+    text-decoration: none;
+}
+
+#styleone ul li a:hover, #styleone ul li.current a{
+    background: transparent url("/media/img/bgON.gif") repeat-x top left;
+    color: #FFFFFF;
+}

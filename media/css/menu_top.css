@@ -1,0 +1,44 @@
+#header .menuTop {
+    display: block;
+    font-size: 12px;
+    margin: 0px;
+    padding: 140px 0 0 530px;
+}
+
+#header .menuTop ul, #header .menuTop li {
+    line-height: normal;
+    list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+#header .menuTop li {
+    float: left;
+	margin-right: 30px;
+}
+
+/* Посилання */
+#header .menuTop a {
+    color: #FFFFFF;
+	display: block;
+	float: left;
+    font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* Підсвітка посилання */
+#header .menuTop a:hover {
+	color: #BBAE77;
+}
+
+#header .menuTop li.active a {
+	color: #BBAE77;
+}
+
+/* Зображення */
+#header .menuTop img {
+    border: none;
+    float: left;
+    margin: 2px 5px 0 0px;
+}

@@ -1,0 +1,73 @@
+#bottomBar {
+    background: url("/media/img/footer_bg.gif") 340px 0 repeat-y;
+    line-height: 2em;
+}
+
+#bottomBar, #bottomBar a {
+    background-color: #BBAE77;
+    color: #F8F8F2;
+}
+
+#bottomBar h2, #bottomBar p, #bottomBar a, #bottomBar address {
+	font-style: normal;
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+#bottomBar h2 {
+    background-color: #BBAE77;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#bottomBar .foot_contact {
+	display: block;
+	float: left;
+    margin: 0 40px 0 0;
+	padding: 0;
+	width: 320px;
+}
+
+#bottomBar .foot_contact ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bottomBar .foot_contact address{
+	font-size: 11px;
+    margin-bottom: 20px;
+}
+
+#bottomBar .footbox{
+	display: block;
+	float: left;
+    font-size: 12px;
+	margin: 0 0 20px 0;
+	padding: 0;
+    width: 620px;
+}
+
+#bottomBar .footbox ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bottomBar .footbox li {
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+#bottomBar .last{
+	margin:0;
+}
